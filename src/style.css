@@ -3,22 +3,23 @@ body {
   margin: 0;
 }
 
+.container,
+.text,
 .text-here {
-  border: 1px #e95d49 solid;
   padding: 10px;
+  border: 1px #e95d49 solid;
+}
+
+.text-here {
   background-color: #ddd;
 }
 
 .text {
-  padding: 10px;
-  border: 1px #e95d49 solid;
   background-color: #ffa500;
 }
 
 .container {
   margin: 20px 0 40px 20px;
-  padding: 10px;
-  border: 1px #e95d49 solid;
   width: 328px;
   background-color: #308dc0;
 }
